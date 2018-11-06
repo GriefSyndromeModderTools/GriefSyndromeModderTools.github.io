@@ -11,8 +11,11 @@ To allow other people to use some tools we've made, we publish some of our proje
 * 沙漠(Desert)
 * xxx
 
+## New packer (GS_Pack) and image converter (GS_Graph)
+[GS_Pack](https://github.com/GriefSyndromeModderTools/GS_Pack) and [GS_Graph](https://github.com/GriefSyndromeModderTools/GS_graph) are the upgraded version of the tools in the [old toolkit](https://wiki.puella-magi.net/Talk:Grief_Syndrome#Mod_toolkit), GropeSyndrome and GraphSyndrome, respectively. These tools are instead based on command-line interface to facilitate automation. They also have some small bug fixes and new features (fix filename encoding in GropeSyndrome, add the support for transparent background in GraphSyndrome and reading and writing palette file).
+
 ## AML - Another Mod Loader (or Acaly's Mod Loader)
-[AML](https://github.com/GriefSyndromeModderTools/AML2) is the second mod loading system we made for the game, which is a ported verson of NML (Natsu's mod loader, our first mod loader written in C++ and squirrel, named after the author Natsu) to C#. The idea is based on the old multiplayer plugin and NML: injecting a native dll into the game process and modify the assembly code on the run. AML features an easy-to-use C# API and strong native and squirrel script modification functions. It significantly accelerates the developement of new plugins that requires a large amount of modification of native codes.
+[AML](https://github.com/GriefSyndromeModderTools/AML2) is the second mod loading system we made for the game, which is a ported verson of [NML](https://github.com/GriefSyndromeModderTools/GSModloader) (Natsu's mod loader, our first mod loader, written in C++ and squirrel, named after the author Natsu) to C#. The idea is the same as the old multiplayer plugin and NML: injecting a native dll into the game process and modify the assembly code on the run. AML features an easy-to-use C# API and strong native and squirrel script modification functions. It significantly accelerates the developement of new plugins that requires a large amount of modification of native codes.
 
 ### Some projects that use AML:
 **BP multiplayer plugin.** Using a specially improved communication protocol, it gives 2 times network delay tolerance compared with the old multiplayer plugin. It allows someone at the other side of the earth to play with friends in the other side with over 200 ms ping with little penalty in game experience.
@@ -21,6 +24,7 @@ To allow other people to use some tools we've made, we publish some of our proje
 
 **HitBoxVisualizer.** Inject into the game thread and hack into the collision system, which gives us the information about the collision box of each Actor (Actor is the name of entity in GS), and render the boxes on the screen using additional draw calls with the DirectX API. This help the user to know the exact position of the hit boxes, especially those of the bosses, which the only way to know previously is to 'feel'.
 
+![HitBox Screenshot](images/hit1.png)
 ## PatEditor
 [PatEditor](https://github.com/GriefSyndromeModderTools/GS_PatEditor) is an editor for in-game objects, mainly the characters. Although there is already an old editor for characters, it requires to manually change all parameters for all frames. As there are tonnes of numbers to change for even the simpliest animation, and even one mistake can crash the whole animation, this method proved ~~(mainly by Desert)~~ to be very unreliable and frustrating when we want to make new characters. The new editor is written from scratch. It tries to provide a WYSIWYG editing experience. The pictures, hitboxes, speeds of playing, loops, and even the logic that incoporates scripts, can all been edited and previewed before packing to a mod and starting the game. When publishing, besides the character animation file, the editor also automatically generates the squirrel script for the character. Ideally, we don't need to write any code to make a new character.
 
