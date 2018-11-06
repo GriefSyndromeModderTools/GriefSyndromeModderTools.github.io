@@ -26,14 +26,14 @@ To allow other people to use some tools we've made, we publish some of our proje
 
 #### Screenshots (click for large image)
 
-<img src="images/hit1.png" width="200">
+<a href="https://github.com/GriefSyndromeModderTools/GriefSyndromeModderTools.github.io/tree/master/images/hit1.png"><img src="images/hit1.png" width="200"></a>
 
 ## PatEditor
 [PatEditor](https://github.com/GriefSyndromeModderTools/GS_PatEditor) is an editor for in-game objects, mainly the characters. Although there is already an old editor for characters, it requires to manually change all parameters for all frames. As there are tonnes of numbers to change for even the simpliest animation, and even one mistake can crash the whole animation, this method proved ~~(mainly by Desert)~~ to be very unreliable and frustrating when we want to make new characters. The new editor is written from scratch. It tries to provide a WYSIWYG editing experience. The pictures, hitboxes, speeds of playing, loops, and even the logic that incoporates scripts, can all been edited and previewed before packing to a mod and starting the game. When publishing, besides the character animation file, the editor also automatically generates the squirrel script for the character. Ideally, we don't need to write any code to make a new character.
 
 #### Screenshots (click for large image)
 
-|![screenshot](images/pat1.png)|![screenshot](images/pat2.png)|![screenshot](images/pat3.gif)|![screenshot](images/pat5.gif)|
+|<a href="https://github.com/GriefSyndromeModderTools/GriefSyndromeModderTools.github.io/tree/master/images/pat1.png">![screenshot](images/pat1.png)</a>|<a href="https://github.com/GriefSyndromeModderTools/GriefSyndromeModderTools.github.io/tree/master/images/pat2.png">![screenshot](images/pat2.png)</a>|<a href="https://github.com/GriefSyndromeModderTools/GriefSyndromeModderTools.github.io/tree/master/images/pat3.gif">![screenshot](images/pat3.gif)</a>|<a href="https://github.com/GriefSyndromeModderTools/GriefSyndromeModderTools.github.io/tree/master/images/pat5.gif">![screenshot](images/pat5.gif)</a>|
 |------|------|------|------|
 |Animation list|Animation editor|Preview|Animation editor|
 
