@@ -24,12 +24,23 @@ To allow other people to use some tools we've made, we publish some of our proje
 
 **HitBoxVisualizer.** Inject into the game thread and hack into the collision system, which gives us the information about the collision box of each Actor (Actor is the name of entity in GS), and render the boxes on the screen using additional draw calls with the DirectX API. This help the user to know the exact position of the hit boxes, especially those of the bosses, which the only way to know previously is to 'feel'.
 
-![HitBox Screenshot](images/hit1.png)
+#### Screenshots (click for large image)
+
+<img src="images/hit1.png" width="200">
+
 ## PatEditor
 [PatEditor](https://github.com/GriefSyndromeModderTools/GS_PatEditor) is an editor for in-game objects, mainly the characters. Although there is already an old editor for characters, it requires to manually change all parameters for all frames. As there are tonnes of numbers to change for even the simpliest animation, and even one mistake can crash the whole animation, this method proved ~~(mainly by Desert)~~ to be very unreliable and frustrating when we want to make new characters. The new editor is written from scratch. It tries to provide a WYSIWYG editing experience. The pictures, hitboxes, speeds of playing, loops, and even the logic that incoporates scripts, can all been edited and previewed before packing to a mod and starting the game. When publishing, besides the character animation file, the editor also automatically generates the squirrel script for the character. Ideally, we don't need to write any code to make a new character.
 
+#### Screenshots (click for large image)
+
+|![screenshot](images/pat1.png)|![screenshot](images/pat2.png)|![screenshot](images/pat3.gif)|![screenshot](images/pat5.gif)|
+|------|------|------|------|
+|Animation list|Animation editor|Preview|Animation editor|
+
 ## Remilia mod
 Probably the most complicated project in Homukyo Studio. It adds a new character, Remilia (originally from Touhou Series) to the game. The pictures are from the game Touhou Hisotensoku. Thanks to the new editor, we were able to redesign every skill to make it compatible and balanced when moved to the game. The project is started by xxx, who did the majority work for the animation. It uses a character choosing screen and a packing tool written by Natsu and Kusako, and several pictures provided by Desert. Additional coding and debugging work is done by Acaly, and testing by many other players in our QQ group.
+
+https://www.bilibili.com/video/av15530055/
 
 ## ActEditor
 [ActEditor](https://github.com/GriefSyndromeModderTools/GS_ActEdit) is a map editor for the .act format map file used by Griefsyndrome. The map file format is reverse-engineered and we are now able to add new scenes to the game. However, due to the even larger amount of work to create a new scene compared with a new character, no one has ever successfully created a new scene yet. Hopefully someone in the future will have the time to do so.
