@@ -40,7 +40,7 @@ To allow other people to use some tools we've made, we publish some of our proje
 ## Remilia mod
 Probably the most complicated project in Homukyo Studio. It adds a new character, Remilia (originally from Touhou Series) to the game. The pictures are from the game Touhou Hisotensoku. Thanks to the new editor, we were able to redesign every skill to make it compatible and balanced when moved to the game. The project is started by xxx, who did the majority work for the animation. It uses a character choosing screen and a packing tool written by Natsu and Kusako, and several pictures provided by Desert. Additional coding and debugging work is done by Acaly, and testing by many other players in our QQ group.
 
-https://www.bilibili.com/video/av15530055/
+Mod preview (replay 2x): [https://www.bilibili.com/video/av15530055/](https://www.bilibili.com/video/av15530055/)
 
 ## ActEditor
 [ActEditor](https://github.com/GriefSyndromeModderTools/GS_ActEdit) is a map editor for the .act format map file used by Griefsyndrome. The map file format is reverse-engineered and we are now able to add new scenes to the game. However, due to the even larger amount of work to create a new scene compared with a new character, no one has ever successfully created a new scene yet. Hopefully someone in the future will have the time to do so.
