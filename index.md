@@ -42,5 +42,13 @@ Probably the most complicated project in Homukyo Studio. It adds a new character
 
 Mod preview (replay 2x): [https://www.bilibili.com/video/av15530055/](https://www.bilibili.com/video/av15530055/)
 
+<script src="http://vjs.zencdn.net/4.0/video.js"></script>
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls
+preload="auto" width="683" height="384" poster="https://hackercodex.com/static/screencasts/pelican-installation.png"
+data-setup="{}">
+<source src="https://hackercodex.com/screencasts/pelican-installation.mp4" type='video/mp4'>
+</video>
+
 ## ActEditor
 [ActEditor](https://github.com/GriefSyndromeModderTools/GS_ActEdit) is a map editor for the .act format map file used by Griefsyndrome. The map file format is reverse-engineered and we are now able to add new scenes to the game. However, due to the even larger amount of work to create a new scene compared with a new character, no one has ever successfully created a new scene yet. Hopefully someone in the future will have the time to do so.
