@@ -45,9 +45,9 @@ Mod preview (replay 2x): [https://www.bilibili.com/video/av15530055/](https://ww
 <script src="http://vjs.zencdn.net/4.0/video.js"></script>
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls
-preload="auto" width="683" height="384" poster="https://hackercodex.com/static/screencasts/pelican-installation.png"
+preload="auto" width="683" height="384" poster="https://github.com/GriefSyndromeModderTools/GriefSyndromeModderTools.github.io/raw/master/images/KomachiMod111Preview.png"
 data-setup="{}">
-<source src="https://hackercodex.com/screencasts/pelican-installation.mp4" type='video/mp4'>
+<source src="https://github.com/GriefSyndromeModderTools/GriefSyndromeModderTools.github.io/raw/master/images/KomachiMod111.mp4" type='video/mp4'>
 </video>
 
 ## ActEditor
