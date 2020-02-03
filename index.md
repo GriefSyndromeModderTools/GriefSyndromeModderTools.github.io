@@ -42,12 +42,12 @@ To allow other people to use some tools we've made, we publish some of our proje
 ### Remilia
 As the first mod made by PatEditor, it is probably the most complicated project in Homukyo Studio. It adds a new character, Remilia (originally from Touhou Series) to the game. The pictures are from the game Touhou Hisotensoku. Thanks to the new editor, we were able to redesign every skill to make it compatible and balanced when moved to the game. The project is started by xxx, who did the majority work for the animation. It uses a character choosing screen and a packing tool written by Natsu and Kusako, and several pictures provided by Desert. Additional coding and debugging work is done by Acaly, and testing by many other players in our QQ group.
 
-<iframe src="https://player.bilibili.com/player.html?aid=15530055&cid=25273215&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="600" height="580" src="https://player.bilibili.com/player.html?aid=15530055&cid=25273215&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ### Patchouli
 The second new character. This character has 5 different configurations of skills that can be dynamically selected during the battle, making the play style highly flexible.
 
-<iframe src="https://player.bilibili.com/player.html?aid=80506517&cid=139248668&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="600" height="580" src="https://player.bilibili.com/player.html?aid=80506517&cid=139248668&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ### Komachi
 
