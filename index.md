@@ -37,15 +37,26 @@ To allow other people to use some tools we've made, we publish some of our proje
 |------|------|------|------|
 |Animation list|Animation editor|Preview|Animation editor|
 
-## Remilia mod
-Probably the most complicated project in Homukyo Studio. It adds a new character, Remilia (originally from Touhou Series) to the game. The pictures are from the game Touhou Hisotensoku. Thanks to the new editor, we were able to redesign every skill to make it compatible and balanced when moved to the game. The project is started by xxx, who did the majority work for the animation. It uses a character choosing screen and a packing tool written by Natsu and Kusako, and several pictures provided by Desert. Additional coding and debugging work is done by Acaly, and testing by many other players in our QQ group.
+## Mods with new characters
 
-Mod preview (replay 2x): [https://www.bilibili.com/video/av15530055/](https://www.bilibili.com/video/av15530055/)
+### Remilia
+As the first mod made by PatEditor, it is probably the most complicated project in Homukyo Studio. It adds a new character, Remilia (originally from Touhou Series) to the game. The pictures are from the game Touhou Hisotensoku. Thanks to the new editor, we were able to redesign every skill to make it compatible and balanced when moved to the game. The project is started by xxx, who did the majority work for the animation. It uses a character choosing screen and a packing tool written by Natsu and Kusako, and several pictures provided by Desert. Additional coding and debugging work is done by Acaly, and testing by many other players in our QQ group.
+
+<iframe src="https://player.bilibili.com/player.html?aid=15530055&cid=25273215&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+### Patchouli
+The second new character. This character has 5 different configurations of skills that can be dynamically selected during the battle, making the play style highly flexible.
+
+<iframe src="https://player.bilibili.com/player.html?aid=80506517&cid=139248668&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+### Komachi
+
+The third new character, featured by strong melee attacks but slow move, trying to give players different experience compared with other characters.
 
 <script src="http://vjs.zencdn.net/4.0/video.js"></script>
 
 <video id="pelican-installation" class="video-js vjs-default-skin" controls
-preload="auto" width="683" height="384" poster="https://github.com/GriefSyndromeModderTools/GriefSyndromeModderTools.github.io/raw/master/images/KomachiMod111Preview.png"
+preload="auto" width="600" height="450" poster="https://github.com/GriefSyndromeModderTools/GriefSyndromeModderTools.github.io/raw/master/images/KomachiMod111Preview.png"
 data-setup="{}">
 <source src="https://github.com/GriefSyndromeModderTools/GriefSyndromeModderTools.github.io/raw/master/images/KomachiMod111.mp4" type='video/mp4'>
 </video>
